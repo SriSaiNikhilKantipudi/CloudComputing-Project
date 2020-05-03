@@ -55,7 +55,7 @@ class StdOutListener(StreamListener):
 if __name__ == '__main__':
  
     # Authenticate using config.py and connect to Twitter Streaming API.
-    hash_tag_list = ["Trespass","Assualt","Bulgary","Rape","Forgery","Deadbody","Arson","sodomy","Arrest","Shooting","Vandalism","Robbery"]
+    hash_tag_list = ["Crime","Criminal","Vehicular","Warrant","Arrest","Stealing","Shoplift","Damage","Arson","Embezzlement","Suicide","Assault","Assault","Sodomy","Rape","Statutory","Violence","RobberyArmed","Forgery","Casualty","Burglary","Stolen","Rape","Prostitution","Robbery","Embezzlement","Molestation","Casualty","Abuse","Suicide","Terroristic","Theft","Interdiction","terrorist"]
     fetched_tweets_filename = "jstweets.json"
 
     twitter_streamer = TwitterStreamer()
